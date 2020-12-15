@@ -1,8 +1,10 @@
-# COPYRIGHT NOTICE
+# CCPE-M: Coached Conversational Preference Elicitation dataset for Movies
+
+## COPYRIGHT NOTICE
 
 This is the work of Filip Radlinski, Krisztian Balog, Bill Byrne and Karthik Krishnamoorthi from Google LLC, made available under the Creative Commons Attribution 4.0 License. A full copy of the license can be found at https://creativecommons.org/licenses/by/4.0/
 
-# DATA COLLECTION METHODOLOGY
+## DATA COLLECTION METHODOLOGY
 
 This corpus consists of dialogues between two paid crowd-workers using a Wizard-of-Oz methodology. One worker plays the role of an "assistant", while the other plays the role of a "user". The "assistant" is tasked with eliciting the "user" preferences about movies following a Coached Conversational Preference Elicitation (CCPE) methodology. In particular, the assistant is required to ask questions designed so as to minimize the bias in the terminology the "user" employs to convey his or her preferences, and obtain these in as natural language as possible. Each dialog is annotated with entity mentions, preferences expressed about entities, descriptions of entities provided, and other statements of entities (see ontology below).
 
@@ -14,7 +16,7 @@ booktitle = {Proceedings of the Annual Meeting of the Special Interest Group on 
 year = 2019
 } `
 
-# EXPLANATION OF DATA FILES
+## EXPLANATION OF DATA FILES
 
 The dialogue corpus is provided in JSON format in the file data.json.
 
@@ -38,7 +40,7 @@ Each annotation has two fields:
   annotationType: The class of annotation (see ontology below).
   entityType: The class of the entity to which the text refers (see ontology below).
 
-# EXPLANATION OF ONTOLOGY
+## EXPLANATION OF ONTOLOGY
 
 In the corpus, preferences and the entities that these preferences refer to are annotated with an annotation type as well as an entity type.
 
@@ -54,5 +56,5 @@ MOVIE_OR_SERIES for the full or partial name of a movie or series of movies.
 PERSON for the full or partial name of an actual person.
 SOMETHING_ELSE for other important proper nouns, such as the names of characters or locations.
 
-# CHANGES
+## CHANGES
 2019-09-20: Fixed unicode decoding error resulting in a small number of startIndex and endIndex corrections.
