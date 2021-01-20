@@ -8,7 +8,7 @@ This is the work of Filip Radlinski, Krisztian Balog, Bill Byrne and Karthik Kri
 
 This corpus consists of dialogues between two paid crowd-workers using a Wizard-of-Oz methodology. One worker plays the role of an "assistant", while the other plays the role of a "user". The "assistant" is tasked with eliciting the "user" preferences about movies following a Coached Conversational Preference Elicitation (CCPE) methodology. In particular, the assistant is required to ask questions designed so as to minimize the bias in the terminology the "user" employs to convey his or her preferences, and obtain these in as natural language as possible. Each dialog is annotated with entity mentions, preferences expressed about entities, descriptions of entities provided, and other statements of entities (see ontology below).
 
-A full description of the data, methodology, and analyses as well as sample conversations and user instructions can be found in the following research paper:
+A full description of the data, methodology, and analyses as well as sample conversations and user instructions can be found in [the associated research paper](https://www.aclweb.org/anthology/W19-5941/), which can be cited as:
 ```
 @inproceedings{radlinski-etal-2019-ccpe,
   title = {Coached Conversational Preference Elicitation: A Case Study in Understanding Movie Preferences},
